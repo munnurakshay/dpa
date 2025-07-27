@@ -356,7 +356,7 @@ footer h1 {
     font-size: 18px;
 }
 
-@media (max-width: 858px) {
+@media screen and (min-width:360px) and (max-width: 768px) {
     .menu {
         display: block;
         cursor: pointer;
@@ -402,29 +402,42 @@ footer h1 {
     }
 
     /*  */
-    .container{
+    .container {
         opacity: 90%;
     }
+
     .one {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url(sample-removebg-preview.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        margin: auto;
+
     }
 
     .one h1 {
+        font-size: 24px;
         text-align: center;
+        margin-left: -10px;
+    }
+    .one h2{
+        font-size: 18px;
+        margin-left: -10px;
+    }
+    .one button{
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        margin-left: -10px;
     }
 
     .two {
         display: none;
     }
-
+    .content h1{
+        font-size: 24px;
+    }
     .equi {
         width: 100%;
         display: flex;
@@ -432,6 +445,7 @@ footer h1 {
         justify-content: center;
         align-items: center;
         gap: 15px;
+        margin-top: -50px;
     }
 
     .odd,
@@ -457,14 +471,21 @@ footer h1 {
 
     .text h1 {
         text-align: center;
+        font-size: 16px;
         margin-left: -100px;
     }
 
     .text h2 {
         text-align: center;
+        font-size: 14px;
         margin-left: -100px;
     }
-
+    .text h3{
+        font-size: 10px;
+        text-align: left;
+        margin-left: -70px;
+        padding: 12px;
+    }
     .odd .text {
         width: 100%;
         margin-left: 100px;
@@ -474,6 +495,55 @@ footer h1 {
         width: 100%;
         margin-left: 100px;
     }
+    .box{
+        width: 100%;
+        height: max-content;
+        padding: 40px;
+    }
+    .box h1{
+        font-size: 18px;
+    }
+    .box p{
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .box button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+
+    }
+    .cust{
+        width: 100%;
+        height: max-content;
+    }
+    .review h1{
+        font-size: 18px;
+    }
+    .name h2{
+        font-size: 14px;
+    }
+    .name h3{
+        font-size: 12px;
+    }
+    .stars i{
+        font-size: 12px;
+    }
+    .re-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .image img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .comment h1{
+        font-size: 12px;
+    }
     .expert {
         width: auto;
         height: auto;
@@ -481,29 +551,35 @@ footer h1 {
         justify-content: center;
         align-items: center;
     }
-    .photo img{
+
+    .photo img {
         width: 180px;
         height: 180px;
         border: 14px solid rgb(210, 210, 210);
         box-shadow: 2px 2px 18px rgb(210, 210, 210);
     }
-    .details h1{
+
+    .details h1 {
         text-align: center;
         font-size: 18px;
     }
-    .details h2{
+
+    .details h2 {
         text-align: center;
         font-size: 14px;
     }
-    .icons{
+
+    .icons {
         display: flex;
         justify-content: center;
     }
-    .icons img{
+
+    .icons img {
         width: 25px;
         height: 25px;
     }
-    footer h1{
+
+    footer h1 {
         font-size: 14px;
     }
 
